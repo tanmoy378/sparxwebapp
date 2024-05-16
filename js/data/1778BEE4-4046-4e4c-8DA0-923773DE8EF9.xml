@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1.2.1.1", "1", "Bridge Tables", "EARoot/EA1/EA2/EA1/EA1/EA248.htm", "4.png", "", "", "{9DCAE134-0CFC-46d5-B744-88B866582CD6}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.1.2", "1", "ControlDB", "EARoot/EA1/EA2/EA1/EA2/EA269.htm", "4.png", "", "", "{4A25ECD0-D2E6-4982-B09E-826414DDA4ED}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.1.3", "1", "Dimensions", "EARoot/EA1/EA2/EA1/EA3/EA274.htm", "4.png", "", "", "{AE585FF3-B7C0-4113-BAA3-0E0E63422C78}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.1.4", "1", "Facts", "EARoot/EA1/EA2/EA1/EA4/EA437.htm", "4.png", "", "", "{22AC329D-7457-4084-873A-9AEF25562796}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.1.5", "1", "Metadata Tables", "EARoot/EA1/EA2/EA1/EA5/EA524.htm", "4.png", "", "", "{F724168D-F414-4f34-B088-864EB3C1DF9B}", "Package");

@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.1.3:1", "", "Work Labour Costs", "EARoot/EA1/EA1/EA3/EA233.htm", "175.png", "5242", "0", "", "Logical diagram0","{2CECB881-2CBA-419f-AE01-F16552CBD20D}");
+tocTab[tocTab.length] = new Array("0.1.1.3:2", "", "Work Order", "EARoot/EA1/EA1/EA3/EA235.htm", "175.png", "5240", "0", "", "Logical diagram0","{5AE26D52-2411-4b4b-9E40-E7EFB7531B22}");
+tocTab[tocTab.length] = new Array("0.1.1.3:3", "", "Work Order Item", "EARoot/EA1/EA1/EA3/EA237.htm", "175.png", "5241", "0", "", "Logical diagram0","{DC10CBA9-991A-44bf-8562-DF796533D7E3}");

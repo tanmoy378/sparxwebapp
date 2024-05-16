@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.2.1.2:1", "", "«table» AZ_DM_TABLE", "EARoot/EA1/EA2/EA1/EA2/EA270.htm", "8C9E6706-8_table.png", "E70553", "0", "", "Class0","{F2727FE8-51D4-4314-A21D-4044C98EC782}");
+tocTab[tocTab.length] = new Array("0.1.2.1.2:2", "", "«table» AZ_FND_MAPPING", "EARoot/EA1/EA2/EA1/EA2/EA271.htm", "8C9E6706-8_table.png", "E70554", "0", "", "Class0","{C72187E4-06BC-43ef-8834-E84DB9DA89C2}");
+tocTab[tocTab.length] = new Array("0.1.2.1.2:3", "", "«table» AZ_FND_TABLE", "EARoot/EA1/EA2/EA1/EA2/EA272.htm", "8C9E6706-8_table.png", "E70555", "0", "", "Class0","{EA8DF4B5-0381-4093-A543-F66D52872598}");
+tocTab[tocTab.length] = new Array("0.1.2.1.2:4", "", "«table» SOURCE_SYSTEM", "EARoot/EA1/EA2/EA1/EA2/EA273.htm", "8C9E6706-8_table.png", "E70556", "0", "", "Class0","{178FD70E-735C-4247-8681-8ECE92684E22}");

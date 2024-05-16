@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>1.PDM - ARET Second set</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> 1.PDM - ARET Second set </h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../EA1.htm">Model</a> / <a href="../../EA5.htm">Azure Data Mart - PDM (MS SQL)</a> / <a href="../EA9.htm">DM Subject Areas</a> / <a href="EA25.htm">DDL Creation</a> / <a href="EA23.htm">1.PDM - ARET Second set</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="EA13.htm">1. PDM -  DE Release 1</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="EA15.htm">1. PDM - ARET Release 1</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="EA17.htm">1. PDM - MWM Release 1</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="EA19.htm">1. PDM - OPAS RELEASE 1</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="EA21.htm">1.PDM -  GSRA Owned Tables</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="EA23.htm">1.PDM - ARET Second set</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA24.png" usemap="#EA24" border="0" />
+
+<MAP NAME="EA24">
+<area shape="rect" coords="1422,654,1860,1052" href="../../EA2/EA1/EA4/EA503.htm" target="_self">
+<area shape="rect" coords="667,718,925,1242" href="../../EA2/EA1/EA3/EA428.htm" target="_self">
+<area shape="rect" coords="677,743,1090,1112" href="../../EA2/EA1/EA3/EA379.htm" target="_self">
+<area shape="rect" coords="1007,540,1362,1042" href="../../EA2/EA1/EA4/EA499.htm" target="_self">
+<area shape="rect" coords="955,107,1270,414" href="../../EA2/EA1/EA3/EA435.htm" target="_self">
+<area shape="rect" coords="725,134,999,632" href="../../EA2/EA1/EA3/EA363.htm" target="_self">
+<area shape="rect" coords="740,252,1020,530" href="../../EA2/EA1/EA5/EA527.htm" target="_self">
+<area shape="rect" coords="724,237,996,489" href="../../EA2/EA1/EA5/EA526.htm" target="_self">
+<area shape="rect" coords="709,222,960,591" href="../../EA2/EA1/EA5/EA525.htm" target="_self">
+<area shape="rect" coords="621,780,1003,1071" href="../../EA2/EA1/EA3/EA401.htm" target="_self">
+<area shape="rect" coords="1164,187,1526,559" href="../../EA2/EA1/EA3/EA419.htm" target="_self">
+<area shape="rect" coords="777,65,1066,654" href="../../EA2/EA1/EA3/EA418.htm" target="_self">
+<area shape="rect" coords="360,30,658,701" href="../../EA2/EA1/EA3/EA417.htm" target="_self">
+<area shape="rect" coords="10,10,297,768" href="../../EA2/EA1/EA3/EA416.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">1.PDM - ARET Second set : Data Modeling diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">8/3/2022 11:59:03 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">8/16/2022 11:50:17 AM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">217673</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{73145318-7052-4440-B9E4-2FE03AEC4B39}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
